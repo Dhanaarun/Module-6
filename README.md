@@ -1,12 +1,12 @@
-# 🐍 Python OOP: Abstract Class & Method Example
+#  Python OOP: Abstract Class & Method Example
 
-## 🎯 AIM
+## AIM
 
 To create an **abstract class** named `Shape` with an **abstract method** `calculate_area`, and implement this method in two subclasses: `Rectangle` and `Circle`.
 
----
 
-## 🧠 ALGORITHM
+
+##  ALGORITHM
 
 1. **Import ABC module**:
    - Use `from abc import ABC, abstractmethod` to define abstract classes and methods.
@@ -26,9 +26,9 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
    - Instantiate `Rectangle` and `Circle`.
    - Call their `calculate_area()` methods.
 
----
 
-## 💻 Program
+
+##  Program
 ```
 from abc import ABC
 class Shape(ABC):
@@ -60,15 +60,15 @@ print("Area of a circle:", cir.calculate_area()) #call to 'calculate_area' metho
 ## Result
 Thus, the program is executed successfully.
 
-# 🐍 Python OOP: Encapsulation with Private Members
+#  Python OOP: Encapsulation with Private Members
 
-## 🎯 AIM
+##  AIM
 
 To implement **Encapsulation** in Python by defining a class `Rectangle` with **private member variables** `__length` and `__breadth`.
 
----
 
-## 🧠 ALGORITHM
+
+##  ALGORITHM
 
 1. **Define the Class**:
    - Create a class `Rectangle` with two private attributes: `__length` and `__breadth`.
@@ -84,7 +84,7 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 
 ---
 
-## 💻 Program
+##  Program
 ```
 class Rectangle:
     def __init__(self, length, width):
@@ -104,12 +104,12 @@ rect.print_values()
 ## Result
 Thus, the program is executed successfully
 
-# 🐟 Method Overriding-Fish and Shark Class Inheritance in Python
+# Method Overriding-Fish and Shark Class Inheritance in Python
 
-## 🧠 AIM:
+##  AIM:
 To write a Python program that demonstrates class inheritance by creating a parent class `Fish` with a method `type`, and a child class `Shark` that overrides the `type` method.
 
-## 📋 ALGORITHM:
+##  ALGORITHM:
 
 1. Define the `Fish` class with a method named `type()` that prints `"fish"`.
 2. Define the `Shark` class as a subclass of `Fish`, and override the `type()` method to print `"shark"`.
@@ -119,7 +119,7 @@ To write a Python program that demonstrates class inheritance by creating a pare
 6. Within the loop, call the `type()` method using the loop variable.
 7. Output will demonstrate method overriding: printing `"fish"` and `"shark"` accordingly.
 
-## 💻 PROGRAM:
+##  PROGRAM:
 ```
 class Fish:
     def type(self):
@@ -144,15 +144,13 @@ obj_hammerhead.type()
 
 Thus,the program is executed successfully.
 
-# 🐍 Python OOP: Operator Overloading (Less Than `<`)
+#  Python OOP: Operator Overloading (Less Than `<`)
 
-## 🎯 AIM
+##  AIM
 
 To write a Python program that demonstrates **operator overloading** by overloading the **less than (`<`)** operator using a custom class.
 
----
-
-## 🧠 ALGORITHM
+##  ALGORITHM
 
 1. **Create Class `A`**:
    - Define the `__init__()` method to initialize the object with a value `a`.
@@ -168,9 +166,9 @@ To write a Python program that demonstrates **operator overloading** by overload
 4. **Use `<` Operator**:
    - Use `print(ob1 < ob2)` to trigger the overloaded behavior.
 
----
 
-## 💻 Program
+
+##  Program
 class A:
     def __init__(self,a):
         self.a=a
@@ -190,15 +188,15 @@ else:
 ## Result
 Thus,the program is executed successfully.
 
-# # 🐍 Python OOP: Polymorphism with Classes
+# #  Python OOP: Polymorphism with Classes
 
-## 🎯 AIM
+##  AIM
 
 To create two specific classes — `Beans` and `Mango`. Then, create a **generic function** that can accept any object and determine its **type** (Fruit or Vegetable) and **color**, using polymorphism.
 
 ---
 
-## 🧠 ALGORITHM
+##  ALGORITHM
 
 1. **Create Class `Beans`**:
    - Define `type()` method that prints `"Vegetable"`.
@@ -215,9 +213,9 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
    - Instantiate `Beans` and `Mango`.
    - Pass them to `func()` and execute the program.
 
----
 
-## 💻 Program
+
+## Program
 ```
 class Beans(): 
      def type(self): 
